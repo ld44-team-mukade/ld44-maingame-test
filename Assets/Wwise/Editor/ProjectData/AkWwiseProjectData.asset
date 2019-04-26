@@ -191,15 +191,36 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: a06e152cd993d143ad85c6f74a1ec448
     GuidInternal: 
-    m_lastTime: -8586453325836318156
-    List: []
+    m_lastTime: -8586453182216728787
+    List:
+    - name: Main
+      guid: 172a58a650b20d4b83be2345745f7c08
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 58a6b41bcdd17949b01dcb720678e73d
     GuidInternal: 
-    m_lastTime: -8586453325835357322
-    List: []
+    m_lastTime: -8586453182216813865
+    List:
+    - name: PlayBGM
+      guid: 929c3a935809544bbb3268a08f7798b5
+      id: 2542411811
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayBGM
+        ObjectType: 3
+      Path: Default Work Unit\PlayBGM
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
