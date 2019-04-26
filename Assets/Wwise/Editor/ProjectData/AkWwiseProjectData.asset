@@ -371,5 +371,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /LD44-mukade-test
+  - /LD44-mukade-test/Events
+  - /LD44-mukade-test/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

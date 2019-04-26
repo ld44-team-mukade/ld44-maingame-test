@@ -9,5 +9,5 @@
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2019.1.0.6947</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../../../wwise Projects/ld44-mukade-test/LD44-mukade-test/LD44-mukade-test.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../ld44-maingame-test/wwise projects/LD44-mukade-test.wproj</WwiseProjectPath>
 </WwiseSettings>
