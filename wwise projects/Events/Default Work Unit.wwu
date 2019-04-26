@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1BB4A658-D1CD-4979-B01D-CB720678E73D}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1BB4A658-D1CD-4979-B01D-CB720678E73D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayBGM" ID="{933A9C92-0958-4B54-BB32-68A08F7798B5}">
+					<ChildrenList>
+						<Action Name="" ID="{C829D437-0405-4101-935B-9B34DF2A8E91}" ShortID="596574866">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ld44-test-bgm" ID="{7B58265B-275C-4C9E-A2D7-02CACD5C9398}" WorkUnitID="{1DDAD2AB-516B-44BC-A582-7CF2C452CECD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

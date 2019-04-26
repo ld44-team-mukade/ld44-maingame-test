@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1DDAD2AB-516B-44BC-A582-7CF2C452CECD}" SchemaVersion="94">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{1DDAD2AB-516B-44BC-A582-7CF2C452CECD}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="ld44-test-bgm" ID="{7B58265B-275C-4C9E-A2D7-02CACD5C9398}" ShortID="1048249262">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="16000"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A7BDE465-44B7-43B8-93A6-7A2D2A541C72}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEE558CA-8FDF-45DD-A427-DD7B1AE97293}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="ld44-test-bgm" ID="{D482B8DB-2F01-456C-8F08-AFACD99216B6}" ShortID="920158622">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FEE558CA-8FDF-45DD-A427-DD7B1AE97293}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ld44-test-bgm" ID="{DED02307-5BB5-461C-B87F-A9A7E09EEA8A}" ShortID="772438069">
+									<Language>SFX</Language>
+									<AudioFile>ld44-test-bgm.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FFCD0F47-CBCC-4142-9A7D-1660B2D61EAC}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{836D9320-553F-4FAA-B6C5-5A31D0EA05A5}">
+									<ClipList>
+										<MusicClip Name="ld44-test-bgm" ID="{6E769521-0A7B-4EA2-92D3-EA63456E1B4E}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="16000"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="ld44-test-bgm" ID="{DED02307-5BB5-461C-B87F-A9A7E09EEA8A}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{CDEB6C0D-D746-477C-B3E2-81C4C9E90E6F}"/>
+						<MusicCue Name="Exit Cue" ID="{D1ABD47A-7E0E-4C9F-A066-0EDC84106A22}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="16000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
