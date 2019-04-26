@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2084434890	PlayBGM12			\Default Work Unit\PlayBGM12	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	772438069	ld44-test-bgm	C:\Dev\wwise Projects\ld44-mukade-test\LD44-mukade-test\.cache\Windows\SFX\ld44-test-bgm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\ld44-test-bgm\ld44-test-bgm		3072064
+

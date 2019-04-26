@@ -191,7 +191,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: a06e152cd993d143ad85c6f74a1ec448
     GuidInternal: 
-    m_lastTime: -8586453257768838029
+    m_lastTime: -8586453182216728787
     List:
     - name: Main
       guid: 172a58a650b20d4b83be2345745f7c08
@@ -207,17 +207,17 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 58a6b41bcdd17949b01dcb720678e73d
     GuidInternal: 
-    m_lastTime: -8586453258958574425
+    m_lastTime: -8586453182216813865
     List:
-    - name: PlayBGM12
+    - name: PlayBGM
       guid: 929c3a935809544bbb3268a08f7798b5
-      id: 2084434890
+      id: 2542411811
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: PlayBGM12
+      - ElementName: PlayBGM
         ObjectType: 3
-      Path: Default Work Unit\PlayBGM12
+      Path: Default Work Unit\PlayBGM
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -371,7 +371,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /LD44-mukade-test
-  - /LD44-mukade-test/Events
-  - /LD44-mukade-test/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
